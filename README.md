@@ -51,11 +51,11 @@ You only need a modern web browser that supports HTML5, CSS3, and ES6 JavaScript
 
 1.  Clone the repository to your local machine:
     ```sh
-    git clone [https://github.com/your-username/weatherpro.git](https://github.com/your-username/weatherpro.git)
+    git clone [https://github.com/Muneeb80806/Weather-App.git]
     ```
 2.  Navigate to the project directory:
     ```sh
-    cd weatherpro
+    cd Weather-App
     ```
 3.  Open the `index.html` file directly in your web browser.
 
