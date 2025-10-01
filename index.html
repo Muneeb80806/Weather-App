@@ -328,7 +328,7 @@
             constructor() {
                 // IMPORTANT: Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key.
                 // See the guide for instructions on how to get your free key.
-                this.apiKey = 'YOUR_API_KEY'; 
+                this.apiKey = '185b0444cfa88d29ec533fc3ad5cb099'; 
                 this.isCelsius = true;
                 this.currentWeather = null;
                 this.forecast = null;
@@ -410,10 +410,6 @@
             
             // --- API & Data Handling ---
             async fetchWeatherData(url) {
-                if (this.apiKey === '185b0444cfa88d29ec533fc3ad5cb099') {
-                    this.showError('Please add your API key in the script to use the app.');
-                    return null;
-                }
                 try {
                     const response = await fetch(url);
                     if (!response.ok) {
